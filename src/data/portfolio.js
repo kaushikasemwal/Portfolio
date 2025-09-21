@@ -2,7 +2,7 @@
 */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+import splashAnimation from '../assets/lottie/splashAnimation';
 
 // Splash Screen
 const splashScreen = {
@@ -79,7 +79,7 @@ const educationInfo = {
     {
       schoolName: "Mukesh Patel School of Technology Management & Engineering",
       subHeader: "B.Tech in Artificial Intelligence",
-      logo: require("./assets/images/image.png"),
+      logo: require("../assets/images/image.png"),
       duration: "2023 – Present",
       descBullets: [],
     },
@@ -92,7 +92,7 @@ const educationInfo = {
     {
       schoolName: "Rajhans Vidyalaya",
       subHeader: "Class 10 (SSC)",
-      logo: require("./assets/images/rajhans_logo.webp"),
+      logo: require("../assets/images/rajhans_logo.webp"),
       duration: "2019",
       descBullets: [],
     },
@@ -185,10 +185,23 @@ const bigProjects = {
         },
       ],
     },
+    {
+  projectName: "Rock_paper_scissors_game",
+  projectDesc: "A classic game of Rock, Paper, Scissors built with vanilla HTML, CSS, and JavaScript. This project is a fun, interactive web application where you can test your luck against the computer.",
+  footerLink: [
+    {
+      name: "View on GitHub",
+      url: "https://github.com/kaushikasemwal/rock_paper_scissors"
+    },
+    {
+      name: "Live Demo",
+      url: "https://kaushikasemwal.github.io/rock_paper_scissors/"
+    }
+  ]
+    },
   ],
   display: true,
 };
-
 // Achievement Section
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -197,7 +210,7 @@ const achievementSection = {
     {
       title: "Low Level Design of Payment Apps",
       subtitle: "Completed a certification on system design principles for payment applications from Scaler.",
-      image: require("./assets/images/Scaler.png"), 
+      image: require("../assets/images/Scaler.png"), 
       footerLink: [
         {
       name: "View Certificate",
@@ -208,7 +221,7 @@ const achievementSection = {
     {
       title: "Building Resilience",
       subtitle: "Completed a professional development course on building resilience from LinkedIn Learning.", 
-      image: require("./assets/images/linkedin_learning.png"),
+      image: require("../assets/images/linkedin_learning.png"),
       footerLink: [
         {
       name: "View Certificate",
@@ -219,7 +232,7 @@ const achievementSection = {
     {
       title: "Introduction to Artificial Intelligence",
       subtitle: "Completed a course focused on the fundamentals of AI from LinkedIn.",
-      image: require("./assets/images/linkedin_learning.png"),
+      image: require("../assets/images/linkedin_learning.png"),
       footerLink: [
         {
       name: "View Certificate",
@@ -230,7 +243,7 @@ const achievementSection = {
     {
       title: "Blockchain Training Workshop",
       subtitle: "Participated in a hands-on workshop covering the fundamentals of blockchain technology.", 
-      image: require("./assets/images/image.png"), // TODO: Add this image
+      image: require("../assets/images/image.png"), // TODO: Add this image
       footerLink: [
         {
       name: "View Certificate",
@@ -241,7 +254,7 @@ const achievementSection = {
     {
       title: "Java Programming",
       subtitle: "Participated in a hands-on workshop covering the fundamentals of Java programming.", 
-      image: require("./assets/images/image.png"),
+      image: require("../assets/images/image.png"),
       footerLink: [
         {
       name: "View Certificate",
@@ -252,13 +265,24 @@ const achievementSection = {
     {
       title: "Microsoft Learn Student Ambassador",
       subtitle: "Was part of the Microsoft Learn Student Ambassador program during my second year of college.",
-      image: require("./assets/images/microsoft_learn.jpg"),
+      image: require("../assets/images/microsoft_learn.jpg"),
       footerLink: [
         {
       name: "View Certificate",
       url: "https://kaushikasemwal.github.io/portfolio/certificates/MSC Certificates.png",
         }
       ],
+    },
+    {
+      title: "The Future of AI for Finance and Accounting",
+      subtitle: "Completed a course focused on future of AI for finance and accounting from LinkedIn.",
+      image: require("../assets/images/linkedin_learning.png"), // e.g., Coursera.png
+      footerLink: [
+        {
+      name: "View Certificate",
+      url: "https://kaushikasemwal.github.io/portfolio/certificates/The Future of AI for Finance and Accounting.pdf"
+    }
+  ]
     },
   ],
   display: true,

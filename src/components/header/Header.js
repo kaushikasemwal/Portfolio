@@ -12,7 +12,7 @@ import {
   talkSection,
   achievementSection,
   resumeSection
-} from "../../portfolio";
+} from "../../data/portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
